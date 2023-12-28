@@ -59,4 +59,8 @@ public class LoginController {
             return "unknown";
         }
     }
+    @GetMapping("/")
+    public String showLoginPage() {
+        return "login";
+    }
 }
